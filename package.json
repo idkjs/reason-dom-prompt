@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world && rollup -c",
-    "start2": "bsb -make-world -w",
+    "watch:bsb": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "watch": "bsb -make-world -w && rollup -c -w",
     "dev": "npm-run-all --parallel start watch",
